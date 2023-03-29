@@ -1,0 +1,23 @@
+/* Importação da fonte Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap");
+
+/* Definição das classes de fonte */
+.font-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+}
+
+.font-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.font-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.font-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}

@@ -1,16 +1,14 @@
-import Link from "next/link";
-export default function Home() {
+import React from "react";
+import Head from "next/head";
+import Home from "./Home";
+import Layout from "../components/Layout";
+
+const Index: React.FC = () => {
   return (
-    <main>
-      <h1>Luderia</h1>
-      <ul>
-        <li>
-          <label>Jogo</label> Tokaido
-          <a href="https://ludopedia.com.br/jogo/tokaido"> Ludopedia </a>
-          <Link href="/LoginPage">Login</Link>
-          <Link href="/App">Posts</Link>
-        </li>
-      </ul>
-    </main>
+    <>
+      <Home />
+    </>
   );
-}
+};
+
+export default Index;
